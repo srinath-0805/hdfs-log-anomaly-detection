@@ -1,0 +1,13 @@
+pandas
+numpy
+duckdb
+matplotlib
+seaborn
+scikit-learn
+jupyter
+ipykernel
+fastapi
+uvicorn[standard]
+pydantic
+joblib
+python-dotenv

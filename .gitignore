@@ -1,0 +1,45 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+data/raw/*
+data/extracted/*
+data/processed/*
+!data/raw/.gitkeep
+!data/extracted/.gitkeep
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+database/*
+!database/.gitkeep
+outputs/*
+!outputs/figures/.gitkeep
+!outputs/reports/.gitkeep
+.DS_Store
+Thumbs.db
+.vscode/
+# Python testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Model artifacts
+*.pth
+*.pt
+*.joblib
+
+# Database files
+*.duckdb
+*.duckdb.wal
+
+# Environment secrets
+.env.*
+!.env.example
+
+# IDE files
+.idea/

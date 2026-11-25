@@ -1,0 +1,17 @@
+name: hdfs_anomaly
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - duckdb
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - fastapi
+  - uvicorn
+  - joblib
+  - python-dotenv

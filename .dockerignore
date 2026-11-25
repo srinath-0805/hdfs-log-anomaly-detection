@@ -1,0 +1,8 @@
+data/
+notebooks/
+database/
+outputs/
+.git/
+.env
+__pycache__/
+.ipynb_checkpoints/
